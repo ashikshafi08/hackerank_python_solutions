@@ -20,10 +20,9 @@ Would be a string
 
 # Complete the solve function below.
 def solve(s):
-    string_list = s.split()
+    string_list = s.split(' ')
     cap_list = []
     for i in string_list:
         i = i.capitalize()
         cap_list.append(i)
     return " ".join(cap_list)
-        
